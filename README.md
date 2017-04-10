@@ -10,7 +10,7 @@ I use this repository to hold my solutions for the Personal Software Process ass
 - [The Personal Software Process Body of Knowledge, Version 2.0](http://resources.sei.cmu.edu/asset_files/SpecialReport/2009_003_001_15029.pdf)
 - [Self-Study PSP Material](http://www.sei.cmu.edu/tsp/tools/studypsp-form.cfm)
 
-## About the PSP (according to wekipedia)
+## About the PSP (according to wikipedia)
 
 The Personal Software Process (PSP) is a structured software development process that is intended (planned) to help software engineers better understand and improve their performance by tracking their predicted and actual development of code. The PSP was created by Watts Humphrey to apply the underlying principles of the Software Engineering Institute's (SEI) Capability Maturity Model (CMM) to the software development practices of a single developer. It claims to give software engineers the process skills necessary to work on a team software process (TSP) team.
 
