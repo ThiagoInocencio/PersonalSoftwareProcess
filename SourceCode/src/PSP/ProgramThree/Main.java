@@ -20,20 +20,10 @@ public class Main {
 	double[] actualDevelopmentHours = new double[]{15.00, 69.90, 6.50, 22.40, 28.40, 65.90, 19.40, 198.70, 38.80, 138.20};
 	double[] planAddedAndModifiedSize = new double[]{163.00, 765.00, 141.00, 166.00, 137.00, 355.00, 136.00, 1206.00, 433.00, 1130.00};
 	
-	double[] myPlanAddedAndModifiedSize = new double[]{450.00, 150.00};
-	double[] myActualAdddedAndModifiedData = new double[]{317.00, 204.00};
-	
 	
 	DecimalFormat decimalFormat = new DecimalFormat("#.######");
 	
-	OrderedPair teste0 = new OrderedPair(myPlanAddedAndModifiedSize, myActualAdddedAndModifiedData);
-	
 	System.out.println("Teste 1: \n");
-	System.out.print("B0: " + decimalFormat.format(LinearRegression.calculateBeta0(teste0)) + "\t");
-	System.out.print("B1: " + decimalFormat.format(LinearRegression.calculateBeta1(teste0)) + "\t");
-	System.out.print("R: " + decimalFormat.format(LinearRegression.calculateR(teste0)) + "\t");	
-	System.out.print("R^2: " + decimalFormat.format(LinearRegression.calculateBetaRSquared(teste0)) + "\t");	
-	System.out.print("estimating of 386,00: Yk = " + decimalFormat.format(LinearRegression.calculatePrediction(teste0, 65.5)));
 	
 	OrderedPair teste1 = new OrderedPair(estimatedProxySize, actualAddedAndModifiedSize);
 	
