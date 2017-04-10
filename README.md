@@ -2,7 +2,7 @@
 
 ## About this repository
 
-I use this repository to hold my solutions for the Personal Software Process assignments.
+I use this repository to store my solutions for the Personal Software Process assignments.
 
 ## Materials I used to do the PSP assignments
 
