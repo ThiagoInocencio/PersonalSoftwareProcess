@@ -25,7 +25,7 @@ public class Main {
 	
 	OrderedPair teste1 = new OrderedPair(estimatedProxySize, actualAddedAndModifiedSize);
 	
-	System.out.println("Teste 1: \n");
+	System.out.println("Test 1: \n");
 	System.out.print("B0: " + decimalFormat.format(LinearRegression.calculateBeta0(teste1)) + "\t");
 	System.out.print("B1: " + decimalFormat.format(LinearRegression.calculateBeta1(teste1)) + "\t");
 	System.out.print("R: " + decimalFormat.format(LinearRegression.calculateR(teste1)) + "\t");	
@@ -36,7 +36,7 @@ public class Main {
 	
 	OrderedPair teste2 = new OrderedPair(estimatedProxySize, actualDevelopmentHours);
 	
-	System.out.println("\n\nTeste 2: \n");
+	System.out.println("\n\nTest 2: \n");
 	System.out.print("B0: " + decimalFormat.format(LinearRegression.calculateBeta0(teste2)) + "\t");
 	System.out.print("B1: " + decimalFormat.format(LinearRegression.calculateBeta1(teste2)) + "\t");
 	System.out.print("R: " + decimalFormat.format(LinearRegression.calculateR(teste2)) + "\t");	
@@ -45,7 +45,7 @@ public class Main {
 	
 	OrderedPair teste3 = new OrderedPair(planAddedAndModifiedSize, actualAddedAndModifiedSize);
 	
-	System.out.println("\n\nTeste 3: \n");
+	System.out.println("\n\nTest 3: \n");
 	System.out.print("B0: " + decimalFormat.format(LinearRegression.calculateBeta0(teste3)) + "\t");
 	System.out.print("B1: " + decimalFormat.format(LinearRegression.calculateBeta1(teste3)) + "\t");
 	System.out.print("R: " + decimalFormat.format(LinearRegression.calculateR(teste3)) + "\t");	
@@ -54,7 +54,7 @@ public class Main {
 	
 	OrderedPair teste4 = new OrderedPair(planAddedAndModifiedSize, actualDevelopmentHours);
 	
-	System.out.println("\n\nTeste 4: \n");
+	System.out.println("\n\nTest 4: \n");
 	System.out.print("B0: " + decimalFormat.format(LinearRegression.calculateBeta0(teste4)) + "\t");
 	System.out.print("B1: " + decimalFormat.format(LinearRegression.calculateBeta1(teste4)) + "\t");
 	System.out.print("R: " + decimalFormat.format(LinearRegression.calculateR(teste4)) + "\t");	
