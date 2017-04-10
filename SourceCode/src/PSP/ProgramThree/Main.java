@@ -23,8 +23,6 @@ public class Main {
 	
 	DecimalFormat decimalFormat = new DecimalFormat("#.######");
 	
-	System.out.println("Teste 1: \n");
-	
 	OrderedPair teste1 = new OrderedPair(estimatedProxySize, actualAddedAndModifiedSize);
 	
 	System.out.println("Teste 1: \n");
