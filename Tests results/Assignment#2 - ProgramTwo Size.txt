@@ -1,0 +1,178 @@
+Program Name: ProgramTwo
+Number of Itens: 36
+
+	PartName: ClassPart.java (Java File)
+	Number of Itens: 7
+
+		PartName: ClassPart (Class)
+		Number of Itens: 6
+
+			PartName: calculateSize (Method)
+			Size of calculateSize (Method) : 25 LOC(s)
+
+			PartName: calculateNumberOfItens (Method)
+			Size of calculateNumberOfItens (Method) : 4 LOC(s)
+
+			PartName: resumePart (Method)
+			Size of resumePart (Method) : 30 LOC(s)
+
+			PartName: getPartsMethod (Method)
+			Size of getPartsMethod (Method) : 3 LOC(s)
+
+			PartName: setPartsMethod (Method)
+			Size of setPartsMethod (Method) : 3 LOC(s)
+
+			PartName: showCounting (Method)
+			Size of showCounting (Method) : 8 LOC(s)
+
+		Size of ClassPart (Class) : 76 LOC(s)
+
+	Size of ClassPart.java : 78 LOC(s)
+
+	****************************************************
+
+	PartName: ComposedPart.java (Java File)
+	Number of Itens: 3
+
+		PartName: ComposedPart (Class)
+		Number of Itens: 2
+
+			PartName: getNumberOfItens (Method)
+			Size of getNumberOfItens (Method) : 3 LOC(s)
+
+			PartName: setNumberOfItens (Method)
+			Size of setNumberOfItens (Method) : 3 LOC(s)
+
+		Size of ComposedPart (Class) : 12 LOC(s)
+
+	Size of ComposedPart.java : 13 LOC(s)
+
+	****************************************************
+
+	PartName: JavaPart.java (Java File)
+	Number of Itens: 7
+
+		PartName: JavaPart (Class)
+		Number of Itens: 6
+
+			PartName: calculateSize (Method)
+			Size of calculateSize (Method) : 25 LOC(s)
+
+			PartName: calculateNumberOfItens (Method)
+			Size of calculateNumberOfItens (Method) : 7 LOC(s)
+
+			PartName: resumePart (Method)
+			Size of resumePart (Method) : 27 LOC(s)
+
+			PartName: getPartsClass (Method)
+			Size of getPartsClass (Method) : 3 LOC(s)
+
+			PartName: setPartsClass (Method)
+			Size of setPartsClass (Method) : 3 LOC(s)
+
+			PartName: showCounting (Method)
+			Size of showCounting (Method) : 12 LOC(s)
+
+		Size of JavaPart (Class) : 80 LOC(s)
+
+	Size of JavaPart.java : 82 LOC(s)
+
+	****************************************************
+
+	PartName: Main.java (Java File)
+	Number of Itens: 2
+
+		PartName: Main (Class)
+		Number of Itens: 1
+
+			PartName: main (Method)
+			Size of main (Method) : 31 LOC(s)
+
+		Size of Main (Class) : 33 LOC(s)
+
+	Size of Main.java : 34 LOC(s)
+
+	****************************************************
+
+	PartName: MethodPart.java (Java File)
+	Number of Itens: 3
+
+		PartName: MethodPart (Class)
+		Number of Itens: 2
+
+			PartName: calculateSize (Method)
+			Size of calculateSize (Method) : 22 LOC(s)
+
+			PartName: showCounting (Method)
+			Size of showCounting (Method) : 5 LOC(s)
+
+		Size of MethodPart (Class) : 29 LOC(s)
+
+	Size of MethodPart.java : 30 LOC(s)
+
+	****************************************************
+
+	PartName: Part.java (Java File)
+	Number of Itens: 7
+
+		PartName: Part (Class)
+		Number of Itens: 6
+
+			PartName: getPartSize (Method)
+			Size of getPartSize (Method) : 3 LOC(s)
+
+			PartName: setPartSize (Method)
+			Size of setPartSize (Method) : 3 LOC(s)
+
+			PartName: getPartName (Method)
+			Size of getPartName (Method) : 3 LOC(s)
+
+			PartName: setPartName (Method)
+			Size of setPartName (Method) : 3 LOC(s)
+
+			PartName: getPartContent (Method)
+			Size of getPartContent (Method) : 3 LOC(s)
+
+			PartName: setPartContent (Method)
+			Size of setPartContent (Method) : 3 LOC(s)
+
+		Size of Part (Class) : 25 LOC(s)
+
+	Size of Part.java : 27 LOC(s)
+
+	****************************************************
+
+	PartName: ProgramPart.java (Java File)
+	Number of Itens: 7
+
+		PartName: ProgramPart (Class)
+		Number of Itens: 6
+
+			PartName: calculateSize (Method)
+			Size of calculateSize (Method) : 7 LOC(s)
+
+			PartName: calculateNumberOfItens (Method)
+			Size of calculateNumberOfItens (Method) : 7 LOC(s)
+
+			PartName: resumePart (Method)
+			Size of resumePart (Method) : 16 LOC(s)
+
+			PartName: showCounting (Method)
+			Size of showCounting (Method) : 9 LOC(s)
+
+			PartName: getPartsJava (Method)
+			Size of getPartsJava (Method) : 3 LOC(s)
+
+			PartName: setPartsJava (Method)
+			Size of setPartsJava (Method) : 3 LOC(s)
+
+		Size of ProgramPart (Class) : 48 LOC(s)
+
+	Size of ProgramPart.java : 53 LOC(s)
+
+	****************************************************
+
+Total Size of ProgramTwo : 317 LOC
+
+
+*************************************************************************

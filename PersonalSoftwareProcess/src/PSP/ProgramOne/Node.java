@@ -2,7 +2,7 @@ package PSP.ProgramOne;
 
 public class Node {
 	private Node nextNode;
-	private Double value;
+	private Double nodeValue;
 	
 	public Node getNextNode() {
 		return nextNode;
@@ -11,9 +11,9 @@ public class Node {
 		this.nextNode = nextNode;
 	}
 	public Double getValue() {
-		return value;
+		return nodeValue;
 	}
-	public void setValue(Double value) {
-		this.value = value;
+	public void setValue(Double newNodeValue) {
+		this.nodeValue = newNodeValue;
 	}
 }

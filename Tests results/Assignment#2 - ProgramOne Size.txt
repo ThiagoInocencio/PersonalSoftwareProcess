@@ -1,0 +1,103 @@
+Program Name: ProgramOne
+Number of Itens: 20
+
+	PartName: CalculateUtil.java (Java File)
+	Number of Itens: 3
+
+		PartName: CalculateUtil (Class)
+		Number of Itens: 2
+
+			PartName: mean (Method)
+			Size of mean (Method) : 12 LOC(s)
+
+			PartName: stdDeviation (Method)
+			Size of stdDeviation (Method) : 15 LOC(s)
+
+		Size of CalculateUtil (Class) : 29 LOC(s)
+
+	Size of CalculateUtil.java : 30 LOC(s)
+
+	****************************************************
+
+	PartName: CustomLinkedList.java (Java File)
+	Number of Itens: 10
+
+		PartName: CustomLinkedList (Class)
+		Number of Itens: 9
+
+			PartName: CustomLinkedList (Method)
+			Size of CustomLinkedList (Method) : 4 LOC(s)
+
+			PartName: addNode(Node node) (Method)
+			Size of addNode(Node node) (Method) : 12 LOC(s)
+
+			PartName: addNode(double data) (Method)
+			Size of addNode(double data) (Method) : 5 LOC(s)
+
+			PartName: addNode(Double[] data) (Method)
+			Size of addNode(Double[] data) (Method) : 7 LOC(s)
+
+			PartName: removeLastNode (Method)
+			Size of removeLastNode (Method) : 12 LOC(s)
+
+			PartName: getFirstNode (Method)
+			Size of getFirstNode (Method) : 3 LOC(s)
+
+			PartName: setFirstNode (Method)
+			Size of setFirstNode (Method) : 3 LOC(s)
+
+			PartName: getLastNode (Method)
+			Size of getLastNode (Method) : 3 LOC(s)
+
+			PartName: setLastNode (Method)
+			Size of setLastNode (Method) : 3 LOC(s)
+
+		Size of CustomLinkedList (Class) : 56 LOC(s)
+
+	Size of CustomLinkedList.java : 57 LOC(s)
+
+	****************************************************
+
+	PartName: Main.java (Java File)
+	Number of Itens: 2
+
+		PartName: Main (Class)
+		Number of Itens: 1
+
+			PartName: main (Method)
+			Size of main (Method) : 13 LOC(s)
+
+		Size of Main (Class) : 15 LOC(s)
+
+	Size of Main.java : 17 LOC(s)
+
+	****************************************************
+
+	PartName: Node.java (Java File)
+	Number of Itens: 5
+
+		PartName: Node (Class)
+		Number of Itens: 4
+
+			PartName: getNextNode (Method)
+			Size of getNextNode (Method) : 3 LOC(s)
+
+			PartName: setNextNode (Method)
+			Size of setNextNode (Method) : 3 LOC(s)
+
+			PartName: getNodeValue (Method)
+			Size of getNodeValue (Method) : 3 LOC(s)
+
+			PartName: setNodeValue (Method)
+			Size of setNodeValue (Method) : 3 LOC(s)
+
+		Size of Node (Class) : 16 LOC(s)
+
+	Size of Node.java : 17 LOC(s)
+
+	****************************************************
+
+Total Size of ProgramOne : 121 LOC
+
+
+*************************************************************************

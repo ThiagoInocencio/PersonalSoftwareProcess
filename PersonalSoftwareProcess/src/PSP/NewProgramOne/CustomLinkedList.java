@@ -1,14 +1,25 @@
-package PSP.ProgramOne;
+package PSP.NewProgramOne;
 
+/*
+ * Program Assignment: PSP assignment 1                                                     
+ * Name: Thiago Inocêncio
+ * Date: 23/03/2017 
+ * Description:  class that represents a custom LinkedList data structure
+ */
+
+// CLASS BEGIN: CustomLinkedList
 public class CustomLinkedList {
 	private Node firstNode;
 	private Node lastNode;
 	
+	// METHOD BEGIN: CustomLinkedList
 	public CustomLinkedList() {
 		this.firstNode = null;
 		this.lastNode = null;
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: addNode(Node node)
 	public void addNode(Node node) {
 		if(this.firstNode == null) {
 			this.firstNode = node;
@@ -17,26 +28,33 @@ public class CustomLinkedList {
 			this.firstNode.setNextNode(this.lastNode);
 			this.lastNode.setNextNode(null);
 			
-		} else {
+		} 
+		else {
 			lastNode.setNextNode(node);
 			this.lastNode = node;
 		}
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: addNode(double data)
 	public void addNode(double data) {
 		Node node = new Node();
-		node.setValue(data);
+		node.setNodeValue(data);
 		addNode(node);
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: addNode(Double[] data)
 	public void addNode(double[] data) {
 		for(int i = 0; i < data.length; i++) {
 			Node node = new Node();
-			node.setValue(data[i]);
+			node.setNodeValue(data[i]);
 			addNode(node);
 		}
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: removeLastNode
 	public Node removeLastNode() {
 		
 		Node node;
@@ -45,29 +63,43 @@ public class CustomLinkedList {
 			node = this.firstNode;
 			
 			this.firstNode = null;
-		} else {
+		} 
+		else {
 			for(node = this.firstNode; node.getNextNode() != this.lastNode; node = node.getNextNode());
 			
 			this.lastNode = node;
 		}
 		
-		
 		return node;
 	}
+	// METHOD END
 	
+	/*
+	 *    The following methods is used to encapsulate the attributes of this class                                                                 
+	 */
+	
+	// METHOD BEGIN: getFirstNode
 	public Node getFirstNode() {
 		return firstNode;
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: setFirstNode
 	public void setFirstNode(Node firstNode) {
 		this.firstNode = firstNode;
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: getLastNode
 	public Node getLastNode() {
 		return lastNode;
 	}
+	// METHOD END
 	
+	// METHOD BEGIN: setLastNode
 	public void setLastNode(Node lastNode) {
 		this.lastNode = lastNode;
 	}
+	// METHOD END
 }
+// CLASS END

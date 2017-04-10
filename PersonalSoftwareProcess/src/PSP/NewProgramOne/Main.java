@@ -1,7 +1,17 @@
-package PSP.ProgramOne;
+package PSP.NewProgramOne;
 import java.text.DecimalFormat;
 
+/*
+ * Program Assignment: PSP assignment 1                                                     
+ * Name: Thiago Inocêncio
+ * Date: 23/03/2017 
+ * Description:  The main class of the PSP's first program
+ */
+
+// CLASS BEGIN: Main
 public class Main {
+	
+	// METHOD BEGIN: main
 	public static void main(String args[]) {
 		CustomLinkedList estimateProxy = new CustomLinkedList();
 		CustomLinkedList developmentHours = new CustomLinkedList();
@@ -18,4 +28,6 @@ public class Main {
 		System.out.print("Mean: " + decimalFormat.format(CalculateUtil.mean(developmentHours)));
 		System.out.print("\nStandard Deviation: " + decimalFormat.format(CalculateUtil.stdDeviation(developmentHours)));
 	}
+	// METHOD END
 }
+// CLASS END
