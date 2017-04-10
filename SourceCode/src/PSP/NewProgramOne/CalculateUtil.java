@@ -3,7 +3,7 @@ package PSP.NewProgramOne;
 /*
  * Program Assignment: PSP assignment 1                                                     
  * Name: Thiago Inocêncio
- * Date: 23/03/2017 
+ * Date: 08/03/2017 
  * Description:  A utility class that holds many mathematic useful and reusable methods
  */
 

@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 /*
  * Program Assignment: PSP assignment 1                                                     
  * Name: Thiago Inocêncio
- * Date: 23/03/2017 
+ * Date: 08/03/2017 
  * Description:  The main class of the PSP's first program
  */
 
