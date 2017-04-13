@@ -18,7 +18,7 @@ public abstract class ComposedPart extends Part {
 	public abstract void resumePart();
 	
 	/*
-	 *    The following methods is used to encapsulate the attributes of this class                                                                 
+	 *    The following methods are used to encapsulate the attributes of this class                                                                 
 	 */
 
 	// METHOD BEGIN: getNumberOfItens

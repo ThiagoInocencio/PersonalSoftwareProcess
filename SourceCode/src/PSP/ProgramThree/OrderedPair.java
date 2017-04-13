@@ -60,7 +60,7 @@ public class OrderedPair {
 	// METHOD END
 	
 	/*
-	 *    The following methods is used to perform calculations in this Ordered Pair                                                             
+	 *    The following methods are used to perform calculations in this Ordered Pair                                                             
 	 */
 	
 	// METHOD BEGIN: calculateSumOf_X_Values
@@ -145,7 +145,7 @@ public class OrderedPair {
 	// METHOD END
 	
 	/*
-	 *    The following methods is used to encapsulate the attributes of this class                                                                 
+	 *    The following methods are used to encapsulate the attributes of this class                                                                 
 	 */
 	
 	// METHOD BEGIN: getData

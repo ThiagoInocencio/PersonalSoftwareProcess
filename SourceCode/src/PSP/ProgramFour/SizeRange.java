@@ -18,7 +18,7 @@ public class SizeRange {
 	private double veryLargeSizeRange;
 	
 	/*
-	 *    The following methods is used to encapsulate the attributes of this class                                                                 
+	 *    The following methods are used to encapsulate the attributes of this class                                                                 
 	 */
 	
 	// METHOD BEGIN: getData
