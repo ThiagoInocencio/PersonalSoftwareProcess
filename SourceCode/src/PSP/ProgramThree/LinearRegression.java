@@ -2,9 +2,9 @@ package PSP.ProgramThree;
 
 /*
  * Program Assignment: PSP assignment 3                                                     
- * Name: Thiago Inocêncio
+ * Name: Thiago InocÃªncio
  * Date: 30/03/2017 
- * Description: A class that has useful methods to calculate a linear regression from an given orderned pair 
+ * Description: A class that has useful methods to calculate a linear regression from a given orderned pair 
  */
 
 // CLASS BEGIN: LinearRegression
