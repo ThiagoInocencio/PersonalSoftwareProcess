@@ -2,9 +2,9 @@
 
 ## About this repository
 
-I use this repository to store my solutions for the Personal Software Process assignments.
+Repository to store my solutions for the Personal Software Process assignments.
 
-## Materials I used to do the PSP assignments
+## Materials used to do the PSP assignments
 
 - [PSP: A Self-Improvement Process for Software Engineers](https://www.amazon.com/PSP-Self-Improvement-Process-Software-Engineers/dp/0321305493);
 - [The Personal Software Process Body of Knowledge, Version 2.0](http://resources.sei.cmu.edu/asset_files/SpecialReport/2009_003_001_15029.pdf)
